@@ -29,16 +29,17 @@ assignment.
 WARNING!!! WARNING!!!
 
 */
-var names=["Yaakov","John","Jen","Jason","Paul","Frank","Larry","Paula","Laura","Jim"]
-console.log("Hello",names[0])
-console.log("Goodbye",names[1])
-console.log("Goodbye",names[2])
-console.log("Goodbye",names[3])
-console.log("Hello",names[4])
-console.log("Hello",names[5])
-console.log("Hello",names[6])
-console.log("Hello",names[7])
-console.log("Hello",names[8])
+// var names=["Yaakov","John","Jen","Jason","Paul","Frank","Larry","Paula","Laura","Jim"]
+// console.log("Hello",names[0])
+// console.log("Goodbye",names[1])
+// console.log("Goodbye",names[2])
+// console.log("Goodbye",names[3])
+// console.log("Hello",names[4])
+// console.log("Hello",names[5])
+// console.log("Hello",names[6])
+// console.log("Hello",names[7])
+// console.log("Hello",names[8])
+// console.log("Good Bye",names[9])
 
 // STEP 1: (NOTHING TO DO. ALREADY DONE FOR YOU)
 // Wrap the entire contents of script.js inside of an IIFE
@@ -51,11 +52,14 @@ console.log("Hello",names[8])
     // See Lecture 50, part 1
 
  
-      var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-      for (var i = 0; i < names.length; i++) 
-      console.log("Hello" + names[i]);
-      console.log("Bye" + names [3]);
-      console.log("Bye" + names [6]);
+      //var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+      // for (var i = 0; i < names.length; i++) 
+      // console.log("Hello" + names[i]);
+      // console.log("Bye" + names [3]);
+      // console.log("Bye" + names [6]);
+      
+
+     
       
   
       
@@ -66,18 +70,28 @@ console.log("Hello",names[8])
       // string object's 'toLowerCase' method on the result so we can compare
       // to lower case character 'j' afterwards.
       // Look up these methods on Mozilla Developer Network web site if needed.
-      var firstLetter = names[i].charAt(0).toLowerCase();
+      
+      // var firstLetter = names[i].charAt(0).toLowerCase();
     
       // STEP 12: (NOTHING TO DO. ALREADY DONE FOR YOU)
       // Compare the 'firstLetter' retrieved in STEP 11 to lower case
       // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
       // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
       // name in the loop.
-      if (firstLetter === 'j') {
-        byeSpeaker.speak(names[i]);
-      } else {
-        helloSpeaker.speak(names[i]);
-      }
+     
    
-    
-  
+  var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"]
+var speak="Hello"
+var speakWord="Good Bye"
+console.log(speak, names[0]);
+console.log(speakWord,names[1]);
+console.log(speakWord,names[2]);
+console.log(speakWord,names[3]);
+console.log(speak,names[4]);
+console.log(speak,names[5]);
+console.log(speak,names[6]);
+console.log(speak,names[7]);
+console.log(speak,names[8]);
+console.log(speakWord,names[9]);
+
+
